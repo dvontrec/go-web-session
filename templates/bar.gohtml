@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Welcome to the bar. What can i get you to drink?</h1>
+    {{if .First}}
+    User Name {{.Username}}<br />
+    Password {{.Password}}<br />
+    First {{.First}}<br />
+    Last {{.Last}}<br />
+    {{ end }}
+    <h2><a href="/logout">Sign out</a></h2>
+  </body>
+</html>
